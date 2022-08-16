@@ -211,7 +211,28 @@ p{
 .fa-instagram{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
-                            }
+               
+                           /* ADDING CUSTOM SCROLLBAR */
+                           ::-webkit-scrollbar {
+                            width: 15px;
+                          }
+                                                  
+                                                /* Track */
+                          ::-webkit-scrollbar-track {
+                            background: #383535; 
+                          }
+                           
+                                                /* Handle */
+                          ::-webkit-scrollbar-thumb {
+                            background: #eb8e37; 
+                            border-radius: 8px;
+                          }
+                          
+                                                /* Handle on hover */
+                          ::-webkit-scrollbar-thumb:hover {
+                            background: #ff7b01; 
+                          }
+}
 
 
 
