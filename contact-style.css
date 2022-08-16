@@ -1,0 +1,23 @@
+
+.content{
+    display: block;
+    width: 100%;
+    height: calc(100%-60px);
+    z-index: 1;
+}
+.glass{
+    background: linear-gradient(135deg, #c2b4b43f, #c2b4b449);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 2555, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(255, 2555, 255, 0.2);
+    height: calc(100%-45px);
+    width: 80%;
+    height: 80%;
+    z-index: 0;
+}
+form{
+    height: 800px;
+    width: 600px;
+}
